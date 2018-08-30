@@ -25,7 +25,7 @@ SECRET_KEY = 'fwpk3v#t+ipb6-_xt%20l$*u1&e@@-y#xa!v(@le9n9n=0)y8('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'drchuck.pythonanywhere.com' ]
 
 
 # Application definition
