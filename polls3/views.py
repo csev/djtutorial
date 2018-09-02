@@ -13,7 +13,7 @@ def index(request):
     return render(request, 'polls3/index.html', context)
 
 def owner(request):
-    return HttpResponse("Hello, world. Jane Instructor / 1ff1de77 is the polls index.")
+    return HttpResponse("Hello, world. Jane Instructor / 1ff1de77 is the polls owner.")
 
 def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
