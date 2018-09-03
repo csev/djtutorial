@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'drchuck.pythonanywhere.com' ]
 # Application definition
 
 INSTALLED_APPS = [
+    'polls1.apps.Polls1Config',
     'polls2.apps.Polls2Config',
     'polls3.apps.Polls3Config',
     'polls4.apps.Polls4Config',
