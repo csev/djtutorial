@@ -25,7 +25,7 @@ SECRET_KEY = 'fwpk3v#t+ipb6-_xt%20l$*u1&e@@-y#xa!v(@le9n9n=0)y8('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'drchuck.pythonanywhere.com' ]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'dj4e.pythonanywhere.com' ]
 
 
 # Application definition
@@ -121,4 +121,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = 'http://drchuck.pythonanywhere.com/static/'
+STATIC_URL = 'https://drchuck.pythonanywhere.com/static/'
