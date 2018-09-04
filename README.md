@@ -43,3 +43,13 @@ Reload the Application in the UI...
 
     python manage.py shell
     
+    from polls2.models import Choice, Question
+    from django.utils import timezone
+    q = Question(question_text="Answer to the Ultimate Question", pub_date=timezone.now())
+    q.save()
+    q = Question.objects.get(pk=1)
+    q.choice_set.create(choice_text='Not much', votes=0)
+    q.choice_set.create(choice_text='Pizza', votes=0)
+    q.choice_set.create(choice_text='42', votes=0)
+    q.choice_set.create(choice_text='Water', votes=0)
+
