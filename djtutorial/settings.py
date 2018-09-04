@@ -121,4 +121,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = 'https://drchuck.pythonanywhere.com/static/'
+STATIC_URL = 'https://dj4e.pythonanywhere.com/static/'
